@@ -222,7 +222,11 @@ it('has homepage', function () {
 
 > **Note:** You can still use Dusk's regular class-based syntax as you can do with any other tests.
 
-Now, when you run `pest` you will see your Dusk tests as well.
+Now, when you can execute your Dusk tests using the `pest:dusk` Artisan command:
+
+```bash
+php artisan pest:dusk
+```
 
 > **Note:** As for now, the Laravel plugin doesn't support Dusk's functions, so you'll have to use them with the `$this` variable as the example above shows.
 
